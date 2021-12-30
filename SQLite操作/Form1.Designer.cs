@@ -84,7 +84,7 @@
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(288, 344);
+            this.BtnDelete.Location = new System.Drawing.Point(310, 344);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(78, 48);
             this.BtnDelete.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 24);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(548, 286);
+            this.dataGridView1.Size = new System.Drawing.Size(545, 277);
             this.dataGridView1.TabIndex = 6;
             // 
             // textBox1
@@ -142,7 +142,7 @@
             // 
             // tBoxPermission
             // 
-            this.tBoxPermission.Location = new System.Drawing.Point(433, 421);
+            this.tBoxPermission.Location = new System.Drawing.Point(409, 421);
             this.tBoxPermission.Name = "tBoxPermission";
             this.tBoxPermission.Size = new System.Drawing.Size(56, 20);
             this.tBoxPermission.TabIndex = 8;
@@ -187,7 +187,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(427, 406);
+            this.label5.Location = new System.Drawing.Point(403, 406);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 9;
@@ -235,7 +235,7 @@
             // 
             // BtnInsertS2
             // 
-            this.BtnInsertS2.Location = new System.Drawing.Point(507, 406);
+            this.BtnInsertS2.Location = new System.Drawing.Point(483, 406);
             this.BtnInsertS2.Name = "BtnInsertS2";
             this.BtnInsertS2.Size = new System.Drawing.Size(74, 35);
             this.BtnInsertS2.TabIndex = 1;
@@ -247,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 491);
+            this.ClientSize = new System.Drawing.Size(588, 491);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
