@@ -235,9 +235,9 @@
             // 
             // BtnInsertS2
             // 
-            this.BtnInsertS2.Location = new System.Drawing.Point(483, 406);
+            this.BtnInsertS2.Location = new System.Drawing.Point(483, 386);
             this.BtnInsertS2.Name = "BtnInsertS2";
-            this.BtnInsertS2.Size = new System.Drawing.Size(74, 35);
+            this.BtnInsertS2.Size = new System.Drawing.Size(74, 55);
             this.BtnInsertS2.TabIndex = 1;
             this.BtnInsertS2.Text = "插入1行";
             this.BtnInsertS2.UseVisualStyleBackColor = true;
@@ -247,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 491);
+            this.ClientSize = new System.Drawing.Size(573, 491);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
