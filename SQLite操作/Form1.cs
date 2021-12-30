@@ -33,6 +33,7 @@ namespace SQLite操作
         {
             conn = new SQLiteConnection(strPath);
             conn.Open();
+
         }
 
         private void BtnSelect_Click(object sender, EventArgs e)
