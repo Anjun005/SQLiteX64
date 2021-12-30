@@ -8,21 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.IO;
 
 namespace SQLite操作
 {
     public partial class Form1 : Form
     {
-        string strPath = "Data Source=" +Application.StartupPath  + "\\"+"lite3.db";
+        string strPath; // = "Data Source=" +Application.StartupPath  + "\\"+"lite3.db";
         private SQLiteConnection conn;
         private SQLiteCommand cmd;
-
+        
 
         public Form1()
         {
             InitializeComponent();
         }
-
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DirectoryInfo info = new DirectoryInfo(Application.StartupPath);
+            strPath = "Data Source=" + info.Parent.Parent.Parent.FullName + @"\DB\lite3.db";
+            //strPath = 
+        }
         private void BtnConnect_Click(object sender, EventArgs e)
         {
             conn = new SQLiteConnection(strPath);
@@ -66,7 +72,7 @@ namespace SQLite操作
         {
             //SQLiteConnection conn = new SQLiteConnection("Data Source=Database.sqliteAAA;Version=3;");
             //conn.Open();
-            string query = "insert into User (AutoID,userName,userPasswd,userRegion,Permissions) values('6','小明','Niu','C6','')";
+            string query = "insert into User (AutoID,userName,userPasswd,userRegion,Permissions) values('10','小明','Niu','C6','')";
             SQLiteCommand cmd = new SQLiteCommand(query, conn);
             cmd.ExecuteNonQuery();
             //conn.Close();
@@ -182,7 +188,7 @@ namespace SQLite操作
             }
         }
 
-       
+
     }
 
     public class userInfo
