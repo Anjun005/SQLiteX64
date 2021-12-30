@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.BtnConnect = new System.Windows.Forms.Button();
-            this.BtnInsert = new System.Windows.Forms.Button();
             this.BtnUpdate = new System.Windows.Forms.Button();
             this.BtnSelect = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
@@ -63,21 +62,11 @@
             this.BtnConnect.UseVisualStyleBackColor = true;
             this.BtnConnect.Click += new System.EventHandler(this.BtnConnect_Click);
             // 
-            // BtnInsert
-            // 
-            this.BtnInsert.Location = new System.Drawing.Point(304, 344);
-            this.BtnInsert.Name = "BtnInsert";
-            this.BtnInsert.Size = new System.Drawing.Size(74, 22);
-            this.BtnInsert.TabIndex = 1;
-            this.BtnInsert.Text = "插入1行";
-            this.BtnInsert.UseVisualStyleBackColor = true;
-            this.BtnInsert.Click += new System.EventHandler(this.BtnInsert_Click);
-            // 
             // BtnUpdate
             // 
-            this.BtnUpdate.Location = new System.Drawing.Point(197, 367);
+            this.BtnUpdate.Location = new System.Drawing.Point(197, 371);
             this.BtnUpdate.Name = "BtnUpdate";
-            this.BtnUpdate.Size = new System.Drawing.Size(72, 32);
+            this.BtnUpdate.Size = new System.Drawing.Size(72, 23);
             this.BtnUpdate.TabIndex = 2;
             this.BtnUpdate.Text = "更新";
             this.BtnUpdate.UseVisualStyleBackColor = true;
@@ -85,9 +74,9 @@
             // 
             // BtnSelect
             // 
-            this.BtnSelect.Location = new System.Drawing.Point(110, 337);
+            this.BtnSelect.Location = new System.Drawing.Point(105, 344);
             this.BtnSelect.Name = "BtnSelect";
-            this.BtnSelect.Size = new System.Drawing.Size(70, 29);
+            this.BtnSelect.Size = new System.Drawing.Size(78, 48);
             this.BtnSelect.TabIndex = 3;
             this.BtnSelect.Text = "查询1";
             this.BtnSelect.UseVisualStyleBackColor = true;
@@ -95,9 +84,9 @@
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(410, 344);
+            this.BtnDelete.Location = new System.Drawing.Point(288, 344);
             this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(66, 48);
+            this.BtnDelete.Size = new System.Drawing.Size(78, 48);
             this.BtnDelete.TabIndex = 4;
             this.BtnDelete.Text = "删除1行";
             this.BtnDelete.UseVisualStyleBackColor = true;
@@ -113,7 +102,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(197, 344);
+            this.textBox1.Location = new System.Drawing.Point(197, 349);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(72, 20);
             this.textBox1.TabIndex = 7;
@@ -246,9 +235,9 @@
             // 
             // BtnInsertS2
             // 
-            this.BtnInsertS2.Location = new System.Drawing.Point(304, 372);
+            this.BtnInsertS2.Location = new System.Drawing.Point(507, 406);
             this.BtnInsertS2.Name = "BtnInsertS2";
-            this.BtnInsertS2.Size = new System.Drawing.Size(74, 22);
+            this.BtnInsertS2.Size = new System.Drawing.Size(74, 35);
             this.BtnInsertS2.TabIndex = 1;
             this.BtnInsertS2.Text = "插入1行";
             this.BtnInsertS2.UseVisualStyleBackColor = true;
@@ -279,7 +268,6 @@
             this.Controls.Add(this.BtnSelect);
             this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.BtnInsertS2);
-            this.Controls.Add(this.BtnInsert);
             this.Controls.Add(this.BtnConnect);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -293,7 +281,6 @@
         #endregion
 
         private System.Windows.Forms.Button BtnConnect;
-        private System.Windows.Forms.Button BtnInsert;
         private System.Windows.Forms.Button BtnUpdate;
         private System.Windows.Forms.Button BtnSelect;
         private System.Windows.Forms.Button BtnDelete;

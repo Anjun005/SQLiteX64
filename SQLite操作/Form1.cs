@@ -68,16 +68,16 @@ namespace SQLite操作
             cmd.ExecuteNonQuery();
         }
 
-        private void BtnInsert_Click(object sender, EventArgs e)
-        {
-            //SQLiteConnection conn = new SQLiteConnection("Data Source=Database.sqliteAAA;Version=3;");
-            //conn.Open();
-            string query = "insert into User (AutoID,userName,userPasswd,userRegion,Permissions) values('10','小明','Niu','C6','')";
-            SQLiteCommand cmd = new SQLiteCommand(query, conn);
-            cmd.ExecuteNonQuery();
-            //conn.Close();
-            cmd.Dispose();
-        }
+        //private void BtnInsert_Click(object sender, EventArgs e)
+        //{
+        //    //SQLiteConnection conn = new SQLiteConnection("Data Source=Database.sqliteAAA;Version=3;");
+        //    //conn.Open();
+        //    string query = "insert into User (AutoID,userName,userPasswd,userRegion,Permissions) values('10','小明','Niu','C6','')";
+        //    SQLiteCommand cmd = new SQLiteCommand(query, conn);
+        //    cmd.ExecuteNonQuery();
+        //    //conn.Close();
+        //    cmd.Dispose();
+        //}
 
         private void BtnInsertS2_Click(object sender, EventArgs e)
         {
