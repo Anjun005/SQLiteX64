@@ -32,7 +32,7 @@ namespace SQLite操作
         private void BtnConnect_Click(object sender, EventArgs e)
         {
             conn = new SQLiteConnection(strPath);
-            conn.Open();
+            conn.Open();  //SqliteX64_FR4.6-4.8\SQLite.Interop.dll   如果连接不上,需要把这个文件拷贝到exe执行目录里
 
         }
 
