@@ -1,0 +1,4 @@
+SQLite 从4.6-4.8都可以使用的X64 一共5个DLL,全部应用就可以了
+下载地址 http://system.data.sqlite.org/index.html/doc/trunk/www/downloads.wiki
+选择Precompiled Binaries for 64-bit Windows (.NET Framework 4.6)
+     sqlite-netFx46-binary-x64-2015-1.0.115.0.zip  (3.69MB)
